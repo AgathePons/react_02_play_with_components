@@ -1,0 +1,10 @@
+@import '../../styles/reset';
+@import '../../styles/vars';
+
+// Left side
+.leftside {
+  width: 150px;
+  padding: 1rem;
+  border: 1px solid $pink;
+  color: $pink;
+}

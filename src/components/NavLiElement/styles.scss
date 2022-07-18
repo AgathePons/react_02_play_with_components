@@ -1,0 +1,42 @@
+@import '../../styles/reset';
+@import '../../styles/vars';
+
+// Nav Li Element
+.header-nav-list-item {
+  position: relative;
+  background-color: $dark-blue;
+
+  &:not(:first-child) {
+    padding-left: 1rem;
+    &:before {
+      position: absolute;
+      left: 0;
+      content: '>';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      color: $blue;
+    }
+
+    &:hover {
+      background-color: $green;
+      color: $dark-blue;
+      cursor: pointer;
+      &:before {
+        content: '_';
+        color: $dark-blue;
+      }
+    }
+  }
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .header-nav-list-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: $dark-purple;
+    color: $yellow;
+  }
+}

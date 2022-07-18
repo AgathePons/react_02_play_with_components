@@ -1,0 +1,15 @@
+@import '../../styles/reset';
+@import '../../styles/vars';
+// header
+.header {
+  width: 100%;
+  border-bottom: 1px solid $green;
+
+  .header-nav {
+    padding: 1.5rem 2rem;
+    .header-nav-list {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

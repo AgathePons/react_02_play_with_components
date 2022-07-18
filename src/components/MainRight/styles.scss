@@ -1,0 +1,18 @@
+@import '../../styles/reset';
+@import '../../styles/vars';
+
+// Main right
+.mainright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: $black;
+  border: 1px solid $yellow;
+
+  img {
+    width: 100%;
+  }
+}

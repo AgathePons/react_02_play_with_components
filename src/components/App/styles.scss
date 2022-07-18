@@ -1,0 +1,13 @@
+@import '../../styles/reset';
+@import '../../styles/vars';
+
+// APP
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $black;
+  font-family: 'Red Hat Mono', monospace;
+  color: $green;
+}
